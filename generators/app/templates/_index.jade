@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width')
+    
+    title <%= app_name %>
+    
+    link(rel="stylesheet" href="application.min.css")
+    
+    // bower:css 
+    // endbower
+
+    // inject:css
+    // endinject
+
+  body(ng-app='app')
+    ion-nav-view
+    
+    script(src='cordova.js')
+    
+    // bower:js
+    // endbower
+
+    // inject:js
+    // endinject
+    
+    script(src='application.js')
