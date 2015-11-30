@@ -1,10 +1,13 @@
 {
   "name": "generator-miojo",
-  "version": "0.0.0",
-  "description": "Yeoman generator",
+  "version": "0.1.0",
+  "description": "A generator for the Ionic Framework",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "russian60/generator-miojo",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/russian60/generator-miojo.git"
+  },
   "author": {
     "name": "Russian Rebouças",
     "email": "russian.reboucas@gmail.com",
@@ -17,7 +20,14 @@
     "generators"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "ionic",
+    "framework",
+    "ionicframework",
+    "angularjs",
+    "hybrid",
+    "mobile",
+    "app"
   ],
   "dependencies": {
     "chalk": "^1.0.0",
