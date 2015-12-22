@@ -67,7 +67,7 @@ module.exports = yeoman.generators.Base.extend({
       this.template('_config.xml', 'config.xml');
       this.template('.bowerrc', '.bowerrc');
       this.template('_ionic.project', '.ionic.project');
-      this.template('.gitignore', '.gitignore');
+      this.template('_gitignore', '.gitignore');
     },
 
     app: function () {
